@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+html,
+body,
+#root {
+    height: 100%;
+    background-color: #eef1f5;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.float-left {
+    float: left;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.float-right {
+    float: right;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.m-l-10 {
+    margin-left: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.p-10 {
+    padding: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.m-10 {
+    margin: 10px;
+}
+
+.card-div {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.header {
+    height: 60px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+
+/* .spinner-wt-ht {
+    width: 50px !important;
+    height: 50px !important;
+} */
+
+.p-progress-spinner-circle {
+    /* fix for IE browsers */
+    stroke: #d62d20;
+    stroke-dasharray: 50, 200;
+}
+
+.profile-div {
+    display: flex;
+}
+
+.m-t-10 {
+    margin-top: 10px;
+}
+
+.m-t-5 {
+    margin-top: 5px;
+}
+
+.m-r-10 {
+    margin-right: 10px;
+}
+
+.user-card {
+    background-color: aquamarine;
+}
+
+.text-align-centre {
+    text-align: center;
 }
