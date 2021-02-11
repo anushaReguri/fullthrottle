@@ -7,7 +7,6 @@ function Header(props) {
     <div className='card-div p-10 header'>
       <img
                       className="pointer m-l-10 float-left"
-                        title="Menu"
                         src={logo}
                         alt={'menu-icon'}
                     ></img>

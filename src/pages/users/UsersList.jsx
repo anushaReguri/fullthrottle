@@ -1,7 +1,7 @@
 import React,{useEffect,useState} from 'react'
 import './UserStyles.css';
 import UserDetailModal from './UserDetailModal';
-import { confirmDialog } from 'primereact/confirmdialog'; // To use confirmDialog method
+import { confirmDialog } from 'primereact/confirmdialog'; 
 import { OrderList } from 'primereact/orderlist';
  import {getDate} from './Commons.jsx'
 
